@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    position: absolute;
+}
+
+.container-2{
+    width: 50vw;
+    height: 100vh;
+    position: relative;
+    background-color: gray;
+    clip-path: polygon(0 0%, 100% 0, 80% 100%, 0 100%);
+}
+
+#my-img{
+    width: 40%;
+    height: 75vh;
+}
+
