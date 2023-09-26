@@ -148,7 +148,7 @@ nav ul li {
 
 .about-container {
   width: 100%;
-  height: 120vh;
+  height: 130vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -156,6 +156,7 @@ nav ul li {
 }
 
 .heading-box {
+  margin-top: 80px;
   border: 5px solid black;
   padding: 15px 30px;
   font-weight: bolder;
@@ -169,6 +170,7 @@ nav ul li {
 
 .about-desc p {
   text-align: center;
+  font-size: 1.1rem;
 }
 
 .detail-box {
@@ -180,6 +182,15 @@ nav ul li {
   align-content: center;
   justify-content: space-around;
   align-items: center;
+}
+
+.detail-heading {
+  margin-top: 50px;
+}
+
+.detail-box img {
+  width: 125px;
+  height: 125px;
 }
 
 .detail-container {
@@ -363,8 +374,29 @@ div strong {
     padding: 5px;
     list-style-type: disc;
     list-style-position: inside;
+    font-size: 1rem;
   }
   .about-desc p {
     font-size: 1.2rem;
+  }
+  .detail-box {
+    flex-wrap: nowrap;
+    width: 90vw;
+  }
+  .detail-box img {
+    width: 90px;
+    height: 90px;
+  }
+  .designation {
+    font-size: 1.2rem;
+  }
+  .company-name {
+    font-size: 0.9rem;
+  }
+  .duration {
+    font-size: 0.8rem;
+  }
+  .detail-container {
+    margin-left: 15px;
   }
 }
