@@ -45,8 +45,8 @@
           <header>
             <nav>
               <ul class="nav-ul">
-                <li><a href="#">About Me</a></li>
-                <li><a>Skills</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a>Personal Projects</a></li>
                 <li><a id="contact-link">CONTACT ME</a></li>
               </ul>
@@ -117,7 +117,7 @@
     </main>
     <section>
       <div class="content-container">
-        <div class="about-container">
+        <div class="about-container" id="about">
           <div class="heading-box">ABOUT ME</div>
           <div class="about-desc">
             <p>
@@ -141,28 +141,28 @@
           <div class="detail-heading"><strong>Achievements</strong></div>
           <ul class="achievement-ul">
             <li>
-              Ranked <b>4th among 100+</b> participants in Code Loop competition
+              Ranked <b>4th among 100+</b> participants in Code Loop competition.
             </li>
             <li>
               <a href="https://www.hackerrank.com/faisalhs2002" target="_blank"
-                >Hackerrank Silver badge in Java</a
+                >Hackerrank Silver badge in Java.</a
               >
             </li>
             <li>
               <a href="https://www.hackerrank.com/faisalhs2002" target="_blank"
-                >Hackerrank Silver badge in SQL</a
+                >Hackerrank Silver badge in SQL.</a
               >
             </li>
             <li>
               <a
                 href="https://docs.google.com/document/d/1P0e2wVLVwsjcpnvDubBgdnUoj9dwo3i57NP3Ug5B0kw/edit?usp=sharing"
                 target="_blank"
-                >Solved <b>200+ Coding</b> Questions in coding platforms</a
+                >Solved <b>200+ Coding</b> Questions in coding platforms.</a
               >
             </li>
           </ul>
         </div>
-        <div class="skills-container">
+        <div class="skills-container" id="skills">
           <div class="heading-box">SKILLS</div>
           <div class="skill-child-container">
             <div>
@@ -186,11 +186,7 @@
               <p>NODE</p>
             </div>
             <div>
-              <img
-                src="asset/express.png"
-                alt="ExpressJS"
-                id="express-img"
-              />
+              <img src="asset/express.png" alt="ExpressJS" id="express-img" />
               <p>EXPRESS</p>
             </div>
           </div>
@@ -219,7 +215,46 @@
             </div>
           </div>
         </div>
-        <div></div>
+        <div class="os-container">
+          <div class="heading-box">OPEN SOURCE CONTRIBUTIONS</div>
+          <div class="detail-box">
+            <img src="asset/awaas-vishwa.png" alt="Awaas-Vishwa" />
+            <div class="detail-container">
+              <p class="designation">
+                <a
+                  href="https://github.com/omrajsharma/awaas-vishwa-fe/"
+                  target="_blank"
+                  >Awaas Vishwa</a
+                >
+              </p>
+              <ul>
+                <li>A property listing web application.</li>
+                <li>Added dark mode feature to the whole webapp.</li>
+                <li>
+                  Made a search box and added filtering items based on title.
+                </li>
+                <li>Also done UI enhancements.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="detail-box">
+            <img src="asset/chesslablab.png" alt="ChesslaBlab" />
+            <div class="detail-container">
+              <p class="designation">
+                <a
+                  href="https://github.com/chesslablab/react-chess"
+                  target="_blank"
+                  >ChesslaBlab</a
+                >
+              </p>
+              <ul>
+                <li>Open source chess for websites and apps.</li>
+                <li>Added Slider for resizing the chessboard.</li>
+                <li>Also done few UI enhancements.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
