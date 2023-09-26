@@ -161,6 +161,7 @@ nav ul li {
   padding: 15px 30px;
   font-weight: bolder;
   font-size: 1.5rem;
+  letter-spacing: 5px;
 }
 
 .about-desc {
@@ -231,6 +232,43 @@ div strong {
 
 .duration {
   font-size: 0.9rem;
+}
+
+.skills-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skill-child-container {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.skill-child-container div img {
+  height: 100px;
+  width: 100px;
+}
+.skill-child-container div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+}
+#express-img {
+  width: 150px;
 }
 
 @media screen and (max-width: 600px) {
@@ -398,5 +436,20 @@ div strong {
   }
   .detail-container {
     margin-left: 15px;
+  }
+  .skill-child-container div {
+    margin-bottom: 10px;
+    height: 12vh;
+  }
+  .skills-container {
+    height: 125vh;
+    background: radial-gradient(circle, white 0%, #d7d7d7 70%);
+  }
+  .skill-child-container div img {
+    height: 50px;
+    width: 50px;
+  }
+  #express-img {
+    width: 75px;
   }
 }
