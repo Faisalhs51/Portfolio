@@ -628,6 +628,7 @@ div strong {
   }
   .about-container {
     height: 200vh;
+    background: radial-gradient(circle, white 0%, #d7d7d7 70%);
   }
   .achievement-ul {
     margin: 0px 15px;
